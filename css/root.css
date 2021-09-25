@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap");
+@import url("./buttons.css");
+
+body {
+  background: #5d6a7c;
+  font-family: "Roboto";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#calc-container {
+  background: #293346;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 4px 5px 6px #00000040;
+  width: 300px;
+  height: auto;
+}
+
+#calc-result {
+  text-align: right;
+  color: white;
+  font-size: 48px;
+  display: block;
+  overflow: auto;
+}
